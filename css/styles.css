@@ -1,0 +1,135 @@
+/* 
+    колір основного тексту #757575 (Сірий) 
+    колір допоміжного тексту(в основному заголовки) #212121 (Темно-чорний)
+    акцент #2196F3 (Голубий)
+
+    другор. колір фону #F5F4FA 
+*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #F5F5F5;
+    --secondary-bg-color: #2F303A;
+    --primary-white-color: #FFFFFF;
+    --secondary-button-color: #F5F4FA;
+
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    font-family: "Roboto";
+}
+
+.list {
+    list-style: none;
+}
+
+    /* Header */
+.logo {
+    color: var(--title-text-color);
+}
+.logo-web {
+    color: var(--accent-color);
+}
+
+.site-nav .link{
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+/* Hero */
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+}
+
+/* Button*/
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.button.primery {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
+
+.button.secondary {
+    background-color: var(--secondary-button-color);
+    color: var(--title-text-color);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Team */
+.team-section{
+    background-color: var(--secondary-button-color);
+}
+
+.team-card-name {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+
+.logo-fr {
+    color: #ffffff;
+}
+.address {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-map {
+    color: #FFFFFF;
+}
+
+.footer-cont .link:hover,
+.footer-cont .link:focus {
+    color: var(--accent-color);
+}
+
+/* Portfolio*/
+
+.portfolio-card-name {
+    color: var(--title-text-color);
+}
