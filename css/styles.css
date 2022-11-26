@@ -47,22 +47,23 @@ body {
     color: var(--accent-color);
 }
 
-.nav, .contact {
+.nav-link, .contact {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
 
-.nav{
+.contact{
     color: var(--primary-text-color);
 }
 
-.nav:hover, 
-.nav:focus {
+.nav-link:hover, 
+.nav-link:focus {
     color: var(--accent-color);
 }
 
-.nav.current{
+.nav-link.current{
     color: var(--accent-color);
 }
 
@@ -136,6 +137,7 @@ body {
     color: var(--title-text-color);
     line-height: 1.14;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .feature-text {
@@ -168,7 +170,7 @@ body {
 }
 
 .logo-fr {
-    color: #ffffff;
+    color: var(--primary-white-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -176,19 +178,19 @@ body {
 }
 
 .address-map {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     line-height: 1.71;
+    font-style: normal;
 }
 
 .address-contact {
     color: var(--background-adress-color);
     line-height: 1.71;
+    font-style: normal;
 }
 
 .address-map:hover,
-.address-contact:hover,
-.address-map:focus,
-.address-contact:focus {
+.address-map:focus{
     color: var(--accent-color);
 }
 
@@ -204,4 +206,5 @@ body {
 .portfolio-category {
     font-size: 16px;
     line-height: 1.87;
+    color: var(--primary-text-color);
 }
